@@ -13,7 +13,7 @@ namespace Liskov_Substituion_Principle_Demo
             accountingVP.LastName = "Stone";
             accountingVP.CalculatePerHourRate(4);
 
-            Employee emp = new Manager();
+            Employee emp = new CEO();
 
             emp.FirstName = "Tim";
             emp.LastName = "Corey";
